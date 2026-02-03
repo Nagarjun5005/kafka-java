@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29705f6d-04e8-4338-8354-16a9b6e98756" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/kafka-basics/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/io/nagarjun/demos/kafka/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/io/nagarjun/demos/kafka/ProducerDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="29705f6d-04e8-4338-8354-16a9b6e98756" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

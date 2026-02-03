@@ -1,11 +1,12 @@
+# IntelliJ / VS Code
+.idea/
+*.iml
+.vscode/
+
 # Gradle
 .gradle/
 build/
 
-# IntelliJ
-.idea/
-*.iml
-out/
-
 # Java
 *.class
+out/

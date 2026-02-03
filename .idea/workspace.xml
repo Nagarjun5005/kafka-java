@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29705f6d-04e8-4338-8354-16a9b6e98756" name="Changes" comment="" />
+    <list default="true" id="29705f6d-04e8-4338-8354-16a9b6e98756" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/kafka-basics-main/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics-main/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics-main/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics-main/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics-main/src/main/java/io/nagarjun/demos/kafka/ProducerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/io/nagarjun/demos/kafka/ProducerDemo.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +22,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/kafka-basics-main">
       <ProjectState />
     </projectState>
   </component>
@@ -26,24 +39,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="untitled" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="untitled" type="f1a62948:ProjectNode" />
-                <item name="kafka-basics" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="untitled" type="f1a62948:ProjectNode" />
-                <item name="kafka-basics" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="untitled" type="f1a62948:ProjectNode" />
-                <item name="kafka-basics" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="kafka-basics-main" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -60,20 +56,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/kafka-basics" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Nagarjun5005"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Nagarjun5005&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Nagarjun5005/kafka-java.git",
-    "accountId": "fd4b5a4a-cc09-4213-9818-cc081733bdff"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Nagarjun5005/kafka-java.git&quot;,
+    &quot;accountId&quot;: &quot;fd4b5a4a-cc09-4213-9818-cc081733bdff&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -85,8 +81,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ProducerDemo.executor": "Run",
+    "Gradle.kafka-basics-main [:io.nagarjun.demos.kafka.ProducerDemo.main()].executor": "Run",
     "Gradle.kafka-begginers-course:kafka-basics [:kafka-basics:io.nagarjun.demos.kafka.ProducerDemo.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -94,13 +92,28 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ProducerDemo (1)">
+    <configuration name="ProducerDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.nagarjun.demos.kafka.ProducerDemo" />
-      <module name="untitled.kafka-basics.main" />
+      <module name="kafka-basics-main.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.nagarjun.demos.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="io.nagarjun.demos.kafka.ProducerDemo" />
+      <module name="kafka-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.nagarjun.demos.kafka.*" />
@@ -192,6 +205,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerDemo (1)" />
         <item itemvalue="Application.ProducerDemo" />
       </list>
     </recent_temporary>
@@ -206,5 +220,16 @@
       <updated>1770056147241</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

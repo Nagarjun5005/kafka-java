@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="kafka-basics-main:test" external.linked.project.path="$MODULE_DIR$/../../kafka-basics-main" external.root.project.path="$MODULE_DIR$/../../kafka-basics-main" external.system.id="GRADLE" external.system.module.group="org.nagarjun" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_21">
+    <output-test url="file://$MODULE_DIR$/../../kafka-basics-main/build/classes/java/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../kafka-basics-main/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../kafka-basics-main/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../kafka-basics-main/src/test/resources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="kafka-basics-main.main" />
+    <orderEntry type="library" name="Gradle: org.apache.kafka:kafka-clients:4.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-simple:1.7.36" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.36" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.github.luben:zstd-jni:1.5.6-10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lz4:lz4-java:1.8.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.xerial.snappy:snappy-java:1.1.10.7" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="kafka-basics-main.main" />
+</module>

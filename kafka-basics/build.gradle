@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.nagarjun'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.kafka:kafka-clients:4.1.1'
+    implementation 'org.slf4j:slf4j-api:1.7.36'
+    implementation 'org.slf4j:slf4j-simple:1.7.36'
+}
+
+task runProducer(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'io.nagarjun.demos.kafka.ProducerDemo'
+}
